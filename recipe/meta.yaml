@@ -1,5 +1,5 @@
 {% set name = "lcls2-pgp-pcie-apps" %}
-{% set version = "1.4.0git2" %}
+{% set version = "1.4.0+2" %}
 
 package:
   name: {{ name|lower }}
