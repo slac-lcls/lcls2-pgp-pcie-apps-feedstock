@@ -1,5 +1,5 @@
 {% set name = "lcls2-pgp-pcie-apps" %}
-{% set version = "1.3.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url:  https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }}-{{ version }}.tar.gz
-  sha256: db03a76150fc9fb4bb634d44f755fee1579d9c413e3d204c28aa08aab16cb0fa 
+  sha256: c6d6b3032972e1aae589160d76981a4ed751aa4d9fb81c649c58591c6a3c128d 
   patches:
     - pip.patch
 
