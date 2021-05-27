@@ -8,8 +8,6 @@ package:
 source:
   url:  https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }}-{{ version }}.tar.gz
   sha256: c6d6b3032972e1aae589160d76981a4ed751aa4d9fb81c649c58591c6a3c128d 
-  patches:
-    - pip.patch
 
 build:
   skip: True  # [win or osx]
